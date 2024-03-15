@@ -11,14 +11,15 @@
     
     <!-- Banner -->
 
-    <div class="banner h-screen w-full flex flex-col items-center justify-center text-slate-200 lg:flex-row-reverse lg:justify-between">
-        <div class="w-1/2">
-            <img src="img/astronaut.png" alt="astronaut" class="w-56 animate-bounce mx-auto">
+    <div class="banner h-screen w-full flex flex-col items-center justify-center text-slate-200 lg:flex-row-reverse lg:justify-between relative">
+        <div class="w-10/12 md:w-8/12 lg:w-1/2 mt-44 md:mt-52 lg:mt-0 z-10">
+            <h1 class="text-3xl font-semibold animate-pulse lg:text-5xl text-center lg:text-start mb-3 font-monospace">AstroSpace</h1>
+            <p class="text-sm font-monospace md:text-center md:px-8 lg:px-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eligendi libero soluta aliquam voluptatem earum repellendus minima nostrum nihil ipsa, dolor doloribus suscipit.</p>
         </div>
-        <div class="w-1/2">
-            <h1 class="text-3xl lg:text-5xl text-center lg:text-start mb-3 font-monospace">AstroSpace</h1>
-            <p class="text-lg font-monospace lg:px-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eligendi libero soluta aliquam voluptatem earum repellendus minima nostrum nihil ipsa, dolor doloribus suscipit.</p>
+        <div class="w-1/2 relative">
+            <img src="img/astronaut.png" alt="astronaut" class="astronaut w-36 absolute top-[-.5rem] left-[1.8rem] animate-flying-astronaut-responsive sm:w-60 sm:left-[3rem] md:w-48 md:left-[7.5rem] lg:mx-auto lg:w-72 lg:static lg:top-0 lg:left-0 lg:animate-flying-astronaut">
         </div>
+        <img src="img/wave (1).svg" alt="wave" class="absolute bottom-0 right-0 left-0 w-full">
     </div>
 
     <!-- End of Banner -->
